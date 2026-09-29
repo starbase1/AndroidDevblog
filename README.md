@@ -86,15 +86,33 @@ Refer to the Kotlin style guide for formatting and code conventions to follow wh
 Troubleshooting is the process of resolving errors in your code.
 
 **#Create and use variables in Kotlin**
-**(In the apps that you use on your phone, notice that some parts of the app stay the same, while other parts change (or are variable).
-For example, the names of the categories within the Settings app stay the same – Network & internet, Connected devices, Apps, and more.)**
-                  <img width="758" height="1600" alt="72302735e50d7d85_1440" src="https://github.com/user-attachments/assets/25093fea-20bb-4730-a8a1-8d0679c6ffff" />
-                  
+
+*(In the apps that you use on your phone, notice that some parts of the app stay the same, while other parts change (or are variable).
+For example, the names of the categories within the Settings app stay the same – Network & internet, Connected devices, Apps, and more.)*
+          <img width="758" height="1600" alt="72302735e50d7d85_1440" src="https://github.com/user-attachments/assets/25093fea-20bb-4730-a8a1-8d0679c6ffff" />                  
 On the other hand, if you look at a news app, the articles will change often. The article name, source, time posted, and images change.
 How do you write your code so that content changes over time? You can't rewrite the code in your app every time there are new articles to post, 
 which happens every day, every hour, and every minute!In this codelab, you learn how to write code that uses variables so that certain parts
 of your program can change without having to write a whole new set of instructions. You will use the Kotlin Playground as you did in the previous note.
 
 **#Variables and data types**
+In computer programming, there's the concept of a variable, which is a container for a single piece of data. 
+You can envision it as a box that contains a value. The box has a label, which is the name of the variable. 
+By referring to the box by its name, you have access to the value it holds.
+Example app with variables
+<img width="758" height="1600" alt="a7e1f5184e4e3b15_1440" src="https://github.com/user-attachments/assets/141c295f-cb8b-4d63-aaaf-3a307d3752d9" />
+
+in a maps app, you may find a details screen for each location, such as a restaurant or business. The above screenshot from the Google Maps app shows the details for 
+Google's company headquarters, which is called the Googleplex. Which pieces of data do you think are stored as variables in the app?
+Name of the location
+Star rating of the location
+Number of reviews of the location
+Whether the user saved (or bookmarked) this location
+Address of the location
+Change the data that's stored in these variables and you have a maps app that's flexible enough to display the details of other locations too.
+Now that you are aware of some common Kotlin data types, which data type would be appropriate for each of the variables identified in the location detail page you saw earlier?
+
+
+Now that you are aware of some common Kotlin data types, which data type would be appropriate for each of the variables identified in the location detail page you saw earlier?
 
 
