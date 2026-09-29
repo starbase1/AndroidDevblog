@@ -88,7 +88,6 @@ Troubleshooting is the process of resolving errors in your code.
 **#Create and use variables in Kotlin**
 **(In the apps that you use on your phone, notice that some parts of the app stay the same, while other parts change (or are variable).
 For example, the names of the categories within the Settings app stay the same – Network & internet, Connected devices, Apps, and more.)**
-
                   <img width="758" height="1600" alt="72302735e50d7d85_1440" src="https://github.com/user-attachments/assets/25093fea-20bb-4730-a8a1-8d0679c6ffff" />
                   
 On the other hand, if you look at a news app, the articles will change often. The article name, source, time posted, and images change.
