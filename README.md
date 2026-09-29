@@ -68,7 +68,34 @@ There is one input, which is the given number. Inside the function body, there i
 In this next example, there is a function called printFullName. There are two inputs required for the function, one for the first name and one for the last name.
 The function body prints out the first name and last name in the output, to display the person's full name.
       <img width="1066" height="320" alt="51f4d1b94b208dfe_1440" src="https://github.com/user-attachments/assets/1e5f5a54-056d-4069-9695-5fdc60f05ae8" />
+This last example shows a function that doesn't require any inputs to be passed in when the function is called. When you call the displayHello() function,
+a Hello message gets printed to the output.
+                  <img width="676" height="260" alt="2d4050e223850fcf_1440" src="https://github.com/user-attachments/assets/ca0dcbbc-2244-496a-9046-44ff6d064202" />
+**Function body**
+The function body contains the instructions needed to achieve the purpose of the function. You can locate the function body by looking for the lines of code 
+enclosed within the opening and closing curly braces.
+            <img width="914" height="506" alt="e012dd6fe687506a_1440" src="https://github.com/user-attachments/assets/15fd30e6-4d71-4200-bae7-99ff6f3e2005" />
+            
+**Summary**
+A Kotlin program requires a main function as the entry point of the program.
+To define a function in Kotlin, use the fun keyword, followed by the name of the function, any inputs enclosed in parentheses, 
+followed by the function body enclosed in curly braces.
+The name of a function should follow camel case convention and start with a lowercase letter.
+Use the println() function call to print some text to the output.
+Refer to the Kotlin style guide for formatting and code conventions to follow when coding in Kotlin.
+Troubleshooting is the process of resolving errors in your code.
 
+**#Create and use variables in Kotlin**
+**(In the apps that you use on your phone, notice that some parts of the app stay the same, while other parts change (or are variable).
+For example, the names of the categories within the Settings app stay the same – Network & internet, Connected devices, Apps, and more.)**
 
+                  <img width="758" height="1600" alt="72302735e50d7d85_1440" src="https://github.com/user-attachments/assets/25093fea-20bb-4730-a8a1-8d0679c6ffff" />
+                  
+On the other hand, if you look at a news app, the articles will change often. The article name, source, time posted, and images change.
+How do you write your code so that content changes over time? You can't rewrite the code in your app every time there are new articles to post, 
+which happens every day, every hour, and every minute!In this codelab, you learn how to write code that uses variables so that certain parts
+of your program can change without having to write a whole new set of instructions. You will use the Kotlin Playground as you did in the previous note.
+
+**#Variables and data types**
 
 
